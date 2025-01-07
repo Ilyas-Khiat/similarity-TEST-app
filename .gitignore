@@ -1,3 +1,4 @@
 ./_pycache_/
 ./app/__pycache__/
 ./tests/__pycache__/
+./app/utils/__pycache__/
