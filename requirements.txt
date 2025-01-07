@@ -1,0 +1,7 @@
+fastapi==0.110.3
+uvicorn==0.25.0
+pydantic==2.9.2
+textdistance==4.6.3
+
+
+
