@@ -28,5 +28,5 @@ class Similarity:
         if not Similarity.validate_algorithms(algorithms):
             raise ValueError("Invalid algorithms, try one of: " + ", ".join(Similarity.get_similarity_methods()))
         
-        return {algorithm: Similarity._ALGORITHMS[algorithm](string1, string2) for algorithm in algorithms}
+        return {algorithm: round(Similarity._ALGORITHMS[algorithm](string1, string2),2) for algorithm in algorithms}
     

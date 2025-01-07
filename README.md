@@ -32,16 +32,16 @@ Once the server is running, open your browser to [http://127.0.0.1:8000/docs](ht
 - **Request Body** (in JSON):
   ```json
   {
-    "string1": "cat",
-    "string2": "bag",
+    "string1": "dog",
+    "string2": "dogs",
     "algorithms": ["cosine", "levenshtein"]
   }
   ```
 - **Sample Response** (in JSON):
   ```json
   {
-    "cosine": 0.95,
-    "levenshtein": 0.8
+    "cosine": 0.85,
+    "levenshtein": 0.75
   }
   ```
   ---
