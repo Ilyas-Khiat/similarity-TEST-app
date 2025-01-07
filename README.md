@@ -1,6 +1,6 @@
 # Similarity TEST
 
-This project provides an API that computes the similarity between two strings using various algorithms (e.g., **cosine**, **levenshtein**, **jaccard**, etc.). It includes:
+An API that computes the similarity between two strings using various algorithms (e.g., **cosine**, **levenshtein**, **jaccard**, etc.). It includes:
 
 1. A **server** with FastAPI that exposes the API.
 2. **Unit tests** for validating the similarity computation methods and error handling.
